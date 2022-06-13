@@ -1,5 +1,10 @@
 # ToDo-React-Tailwind-i18n
 
+To Start the project
+1. `cd todo`
+2. `npm i`
+3. `npm run dev`
+
 That is a new project that I made to improve my productivity and my knowledge about REACT - TAILWIND - i18n - LOCAL STORAGE
 
 What do we have in this project ?
