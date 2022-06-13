@@ -6,7 +6,7 @@ function footer() {
   const { t } = useTranslation();
   return (
     <div
-      className={`${theme} bg-gray-200 dark:bg-gray-600 sticky bottom-0 w-full px-8 h-14 flex items-center justify-between`}
+      className={`${theme} bg-gray-200 dark:bg-gray-600 sticky bottom-0 w-full px-10 h-14 flex items-center justify-between`}
     >
       <span className="font-semibold animate-bounce dark:text-white">
         {t("madeBy")}🚀🚀

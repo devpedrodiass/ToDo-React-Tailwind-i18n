@@ -66,7 +66,7 @@ function Todo() {
   }
 
   return (
-    <div className="todo min-h-screen min-w-screen px-8 py-4 flex flex-col items-center w-full">
+    <div className="todo min-h-screen min-w-screen px-10 py-4 flex flex-col items-center w-full">
       <div className="list_header mb-3 w-full">
         <div className="flex items-center gap-2">
           <input
