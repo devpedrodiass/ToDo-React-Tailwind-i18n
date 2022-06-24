@@ -12,11 +12,13 @@ const resources = {
       create: "Create",
       save: "Save",
       description: "Description",
+      acronyum: "TM",
     },
   },
   br: {
     translation: {
       title: "Organizador de Tarefas",
+      acronyum: "OT",
       altLanguage: "Bandeira do Pais",
       home: "Inicio",
       madeBy: "Feito por Pedro Dias",

@@ -32,7 +32,7 @@ function List({
       })}
     </div>
   ) : (
-    <div className="flex items-center justify-center font-semibold">
+    <div className="flex items-center justify-center text-center font-semibold">
       <span>{t("emptyList")}</span>
     </div>
   );

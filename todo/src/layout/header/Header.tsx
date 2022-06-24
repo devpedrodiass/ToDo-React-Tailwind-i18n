@@ -29,11 +29,16 @@ function Header() {
     setLanguage();
   }, []);
   return (
-    <div className="header sticky h-16 top-0 w-full flex items-center justify-between px-10 bg-yellow-300 shadow-lg dark:bg-blue-300">
-      <div className="header_title text-lg font-semibold ">
-        <span className="text-yellow-600 dark:text-blue-600">{t("title")}</span>
+    <div className="header sticky h-16 top-0 w-full flex items-center justify-between px-2 sm:px-2 lg:px-10 md:px-10 xl:px-10 bg-yellow-300 shadow-lg dark:bg-blue-300">
+      <div className="header_title text-lg font-semibold mr-1">
+        <span className="text-yellow-600 hidden sm:block md:block lg:block xl:block dark:text-blue-600">
+          {t("title")}
+        </span>
+        <span className="text-yellow-600 block sm:hidden md:hidden lg:hidden xl:hidden dark:text-blue-600">
+          {t("acronyum")}
+        </span>
       </div>
-      <div className="header_nav dark:bg-blue-200  bg-yellow-200 rounded-lg">
+      <div className="header_nav dark:bg-blue-200 hidden lg:block md:block xl:block sm:block  bg-yellow-200 rounded-lg">
         <button className="header_nav-button   rounded-lg p-2 border-b-2 border-yellow-600 dark:border-blue-600 flex items-center gap-2">
           <i className="bi bi-house-fill dark:text-blue-600 text-yellow-600"></i>
           <span className="dark:text-blue-600 text-yellow-600">
