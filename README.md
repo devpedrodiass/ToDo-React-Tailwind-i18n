@@ -1,5 +1,8 @@
 # ToDo-React-Tailwind-i18n
 
+No Mobile Version
+Vercel Link to test: https://task-manager-eta-pied.vercel.app/
+
 To Start the project
 1. `cd todo`
 2. `npm i`
