@@ -1,6 +1,6 @@
 # ToDo-React-Tailwind-i18n
 
-Totally Responsive
+Totally Responsive -
 Vercel Link to test: https://task-manager-eta-pied.vercel.app/
 
 To Start the project
