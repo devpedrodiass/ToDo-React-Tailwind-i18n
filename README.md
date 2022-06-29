@@ -13,6 +13,7 @@ That is a new project that I made to improve my productivity and my knowledge ab
    - Tailwind CSS
    - React i18n
    - Context API
+   - LocalStorage API
    - Responsive Design
    
  ### ▶ To Start the project
